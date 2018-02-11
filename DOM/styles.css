@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #ccc;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.button-div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #999;
+    padding: 1em;
+    color: #666;
+}
+
+.main-button {
+    padding: 20px 30px;
+    font-size: 1.1em;
+    color: white;
+    background-color: #6c5ce7;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 1em 0;
+}
+
+.main-button:hover {
+    background-color: #a29bfe;
+}
+
+#hover-div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #999;
+    padding: 1em;
+    cursor: pointer;
+    color: #666;
+}
+
+.para-div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #999;
+    padding: 1em;
+    color: #666;
+}
+
+.paragraph-text {
+    color: #666;
+    cursor: pointer;
+}
+
+.name {
+    padding: .5em;
+}
+
+.friends-list {
+    list-style-type: none;
+}
+
+
