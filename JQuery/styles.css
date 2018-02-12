@@ -26,6 +26,19 @@ body {
     color: #666;
 }
 
+.button-div2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #999;
+    padding: 1em;
+    color: #666;
+}
+
 .main-button {
     padding: 20px 30px;
     font-size: 1.1em;
@@ -39,4 +52,65 @@ body {
 
 .main-button:hover {
     background-color: #a29bfe;
+}
+
+.hover-div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #999;
+    padding: 1em;
+    color: #666;
+    cursor: pointer;
+}
+
+.paraContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #999;
+    padding: 1em;
+    color: #666;
+}
+
+.font-change {
+    color: #666;
+    cursor: pointer;
+}
+
+.span-class {
+    margin: 1em;
+}
+
+
+.friends-array {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #999;
+    padding: 1em;
+    color: #666;
+}
+
+.friend-button {
+    padding: 20px 30px;
+    font-size: 1.1em;
+    color: white;
+    background-color: #6c5ce7;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 1em 0;
 }
